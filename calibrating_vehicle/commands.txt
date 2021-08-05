@@ -1,0 +1,28 @@
+inside docker:
+
+sudo apt-get update
+sudo apt-get install tcl-dev tk-dev python3-tk
+
+
+then follow: https://github.com/ApolloAuto/apollo/blob/r2.5.0/docs/howto/how_to_update_vehicle_calibration.md
+
+
+
+
+to collect data:
+/apollo/bazel-bin/modules/tools/vehicle_calibration/data_collector
+
+
+to process all collected data:
+/apollo/calibrating_vehicle/process_all.sh
+
+
+to create control_conf.pb.txt file:
+/apollo/bazel-bin/modules/tools/vehicle_calibration/result2pb /apollo/modules/control/conf/control_conf.pb.txt /apollo/calibrating_vehicle/result.csv
+
+
+to plot collected data:
+/apollo/bazel-bin/modules/tools/vehicle_calibration/plot_data /apollo/calibrating_vehicle/<file_name>
+
+to plot result data:
+/apollo/bazel-bin/modules/tools/vehicle_calibration/plot_results /apollo/calibrating_vehicle/<file_name>

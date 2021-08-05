@@ -1,0 +1,616 @@
+[
+  {
+    "params": {
+      "Frequency": 12.5,
+      "Topic": "/apollo/sensor/gnss/best_pose",
+      "Frame": "gps",
+      "IgnoreMapOrigin": false
+    },
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 90,
+      "roll": 0
+    },
+    "name": "GPS",
+    "parent": null,
+    "pluginId": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "75bbcbfa-fdca-4703-8e82-abf8078f7991",
+      "name": "GPS Device Sensor",
+      "type": "GpsSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-device for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsSensor"
+  },
+  {
+    "params": {
+      "Frequency": 12.5,
+      "Topic": "/apollo/sensor/gnss/odometry",
+      "Frame": "gps",
+      "IgnoreMapOrigin": false
+    },
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "GPS Odometry",
+    "parent": null,
+    "pluginId": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "483f7b90-2f76-42ee-82c1-22f02f25f924",
+      "name": "GPS Odometry Sensor",
+      "type": "GpsOdometrySensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the GPS location of the vehicle in Longitude/Latitude and Northing/Easting coordintates and the vehicle velocity.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-odometry for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsOdometrySensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/perception/traffic_light"
+    },
+    "name": "Signal Sensor",
+    "parent": null,
+    "pluginId": "c4ba9b81-b274-4c05-b78e-636e61b4590e",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "c4ba9b81-b274-4c05-b78e-636e61b4590e",
+      "name": "Signal Sensor",
+      "type": "SignalSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor returns ground truth data for traffic light signals connected to the current lane of ego vehicle and creates bounding boxes around the detected signals. The color of the bounding box corresponds to the signal's type:\n\t[\n\t\t\"Green\": \"Green\"\n\t\t\"Yellow\": \"Yellow\"\n\t\t\"Red\": \"Red\"\n\t]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#signal-sensor for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "SignalSensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/sensor/gnss/ins_stat",
+      "Frame": "gps"
+    },
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "GPS INS Status",
+    "parent": null,
+    "pluginId": "77250db2-82c9-47dd-9785-c38cc4cb566d",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "77250db2-82c9-47dd-9785-c38cc4cb566d",
+      "name": "GPS-INS Status Sensor",
+      "type": "GpsInsSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs the status of the GPS correction due to INS. The Simulator is an ideal environment in which GPS is always corrected.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#gps-ins-status for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "GpsInsSensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/sensor/camera/front_6mm/image/compressed",
+      "Width": 1444,
+      "Distorted": false,
+      "FieldOfView": 32.8,
+      "Frame": "front_6mm"
+    },
+    "transform": {
+      "x": 0.26893,
+      "y": 1.13617,
+      "z": 1.6976,
+      "pitch": -9.21352384,
+      "yaw": 26.221051,
+      "roll": -5.3800737
+    },
+    "name": "camera_fr",
+    "parent": null,
+    "pluginId": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+      "name": "Color Camera Sensor",
+      "type": "ColorCameraSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This is the type of sensor that would be used for the Main Camera in Apollo.\nColor Camera also has multiple post processing sensor effects that can be added to the Postprocessing field in params. Effects can be combined with an array of Postprocessing fields but order is hard coded.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#color-camera for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "ColorCameraSensor"
+  },
+  {
+    "params": {
+      "LaserCount": 128,
+      "FieldOfView": 45,
+      "CenterAngle": 0,
+      "MinDistance": 3,
+      "RotationFrequency": 10,
+      "MeasurementsPerRotation": 1024,
+      "Topic": "/apollo/sensor/lidar128/compensator/PointCloud2",
+      "Frame": "velodyne"
+    },
+    "transform": {
+      "x": 0,
+      "y": 1.78734,
+      "z": 0.62,
+      "pitch": 0,
+      "yaw": -0.85943669,
+      "roll": 0
+    },
+    "name": "Center Lidar",
+    "parent": null,
+    "pluginId": "b30d0478-8c7b-4687-bfc2-b3cdb3f5faff",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "b30d0478-8c7b-4687-bfc2-b3cdb3f5faff",
+      "name": "Lidar Sensor",
+      "type": "LidarSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor returns a point cloud after 1 revolution.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#lidar for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "LidarSensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/canbus/chassis"
+    },
+    "name": "CAN Bus Sensor",
+    "parent": null,
+    "pluginId": "b0bdc474-ac09-4355-901d-d7012a8c57a8",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "b0bdc474-ac09-4355-901d-d7012a8c57a8",
+      "name": "CAN Bus Sensor",
+      "type": "CanBusSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor sends data about the vehicle chassis. The data includes:\n\t* Speed [m/s]\n\t* Throttle [%]\n\t* Braking [%]\n\t* Steering [+/- %]\n\t* Parking Brake Status [bool]\n\t* High Beam Status [bool]\n\t* Low Beam Status [bool]\n\t* Hazard Light Status [bool]\n\t* Fog Light Status [bool]\n\t* Left Turn Signal Status [bool]\n\t* Right Turn Signal Status [bool]\n\t* Wiper Status [bool]\n\t* Reverse Gear Status [bool]\n\t* Selected Gear [Int]\n\t* Engine Status [bool]\n\t* Engine RPM [RPM]\n\t* GPS Latitude [Latitude]\n\t* GPS Longitude [Longitude]\n\t* Altitude [m]\n\t* Orientation [3D Vector of Euler angles]\n\t* Velocity [3D Vector of m/s]\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#can-bus for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "CanBusSensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/control"
+    },
+    "name": "Apollo Car Control",
+    "parent": null,
+    "pluginId": "03ea1a65-03ae-4f2e-b670-d7244e48deb4",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "03ea1a65-03ae-4f2e-b670-d7244e48deb4",
+      "name": "Apollo Control Sensor",
+      "type": "ApolloControlSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor is required for a vehicle to subscribe to the control topic of Apollo. This sensor also demonstrates how a user can check when SVL Simulator receives the first control message from the AD stack like Apollo. Based on this time, you can start the rest of the simulation or do some other interesting things.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#apollo-control for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "ApolloControlSensor"
+  },
+  {
+    "params": {
+      "Topic": "/apollo/sensor/gnss/imu",
+      "Frame": "imu",
+      "CorrectedTopic": "/apollo/sensor/gnss/corrected_imu",
+      "CorrectedFrame": "imu"
+    },
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "IMU",
+    "parent": null,
+    "pluginId": "9c34ec28-627d-4e73-9bb0-9c2aa7e978f5",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "9c34ec28-627d-4e73-9bb0-9c2aa7e978f5",
+      "name": "IMU Sensor",
+      "type": "ImuSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor output at a fixed rate of 100 Hz. IMU publishes data on topics where the 2nd topic has corrected IMU data.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#imu for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "ImuSensor"
+  },
+  {
+    "params": {
+      "Width": 1444,
+      "Height": 1080,
+      "Topic": "/apollo/sensor/camera/front_12mm/image/compressed",
+      "FieldOfView": 25.3,
+      "Frame": "front_12mm"
+    },
+    "transform": {
+      "x": -0.17502,
+      "y": 1.1257099999999998,
+      "z": 1.73787,
+      "pitch": -5.41366775,
+      "yaw": 5.51836698,
+      "roll": -0.3626822843
+    },
+    "name": "camera_fl",
+    "parent": null,
+    "pluginId": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "3d4f1e08-4c62-4e9f-b859-b26d4910b85e",
+      "name": "Color Camera Sensor",
+      "type": "ColorCameraSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This is the type of sensor that would be used for the Main Camera in Apollo.\nColor Camera also has multiple post processing sensor effects that can be added to the Postprocessing field in params. Effects can be combined with an array of Postprocessing fields but order is hard coded.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#color-camera for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "ColorCameraSensor"
+  },
+  {
+    "transform": {
+      "x": 0,
+      "y": 0,
+      "z": -0.4,
+      "pitch": 0,
+      "yaw": 0,
+      "roll": 0
+    },
+    "name": "Keyboard Car Control",
+    "parent": null,
+    "pluginId": "a2ff904a-ff06-4f06-9e45-cb58217a7142",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "a2ff904a-ff06-4f06-9e45-cb58217a7142",
+      "name": "Keyboard Control Sensor",
+      "type": "KeyboardControlSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor is required for a vehicle to accept keyboard control commands. Parameters are not required.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#keyboard-control for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "KeyboardControlSensor"
+  },
+  {
+    "params": {
+      "Topic": "/clock"
+    },
+    "name": "Clock",
+    "parent": null,
+    "pluginId": "968f386f-dc0b-485d-ba33-5bb71bff93ef",
+    "plugin": {
+      "assetGuid": null,
+      "isFavored": true,
+      "isShared": false,
+      "isOwned": false,
+      "accessInfo": {
+        "userAccessType": "favored",
+        "owner": {
+          "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+          "firstName": "SVL",
+          "lastName": "Content"
+        }
+      },
+      "supportedSimulatorVersions": [
+        "2021.1",
+        "2021.1.1",
+        "2021.2"
+      ],
+      "id": "968f386f-dc0b-485d-ba33-5bb71bff93ef",
+      "name": "Clock Sensor",
+      "type": "ClockSensor",
+      "category": "sensor",
+      "ownerId": "0d888b00-fa53-47c1-882a-b68391268a11",
+      "accessType": "public",
+      "description": "This sensor outputs simulated time to ROS as rosgraph_msgs/Clock message, or to CyberRT as clock message. The only parameter to use is topic/channel name.\nSee https://www.svlsimulator.com/docs/simulation-content/sensors-list/#clock for more details.",
+      "copyright": "LG Electronics Inc.",
+      "licenseName": "LG Content",
+      "status": "active",
+      "owner": {
+        "id": "0d888b00-fa53-47c1-882a-b68391268a11",
+        "firstName": "SVL",
+        "lastName": "Content"
+      },
+      "shareRequests": []
+    },
+    "type": "ClockSensor"
+  }
+]

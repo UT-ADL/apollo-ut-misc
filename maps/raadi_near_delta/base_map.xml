@@ -1,0 +1,1198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<OpenDRIVE xmlns="http://www.opendrive.org">
+  <header revMajor="1" revMinor="0" vendor="Baidu" name="raadi_demo_turns" version="1.0" date="2021-03-31T17:59:15" north="6.471687019e+06" south="6.471562885e+06" east="4.840853461e+05" west="4.838715899e+05">
+    <geoReference><![CDATA[+proj=utm +zone=35 +datum=WGS84 +units=m +no_defs]]></geoReference>
+    <projection>
+      <utm zoneID="35"/>
+    </projection>
+  </header>
+  <road name="" id="1" junction="-1">
+    <lanes>
+      <laneSection>
+        <boundaries>
+          <boundary type="leftBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.839456675e+05" y="6.471584719e+06" z="0.000000000e+00"/>
+                <point x="4.838967251e+05" y="6.471564067e+06" z="0.000000000e+00"/>
+                <point x="4.838944664e+05" y="6.471563218e+06" z="0.000000000e+00"/>
+                <point x="4.838935928e+05" y="6.471563034e+06" z="0.000000000e+00"/>
+                <point x="4.838918673e+05" y="6.471562885e+06" z="0.000000000e+00"/>
+                <point x="4.838899216e+05" y="6.471562945e+06" z="0.000000000e+00"/>
+                <point x="4.838879733e+05" y="6.471563200e+06" z="0.000000000e+00"/>
+                <point x="4.838860559e+05" y="6.471563628e+06" z="0.000000000e+00"/>
+                <point x="4.838842724e+05" y="6.471564183e+06" z="0.000000000e+00"/>
+                <point x="4.838826110e+05" y="6.471564876e+06" z="0.000000000e+00"/>
+                <point x="4.838811382e+05" y="6.471565706e+06" z="0.000000000e+00"/>
+                <point x="4.838804231e+05" y="6.471566210e+06" z="0.000000000e+00"/>
+                <point x="4.838797254e+05" y="6.471566796e+06" z="0.000000000e+00"/>
+                <point x="4.838785112e+05" y="6.471568084e+06" z="0.000000000e+00"/>
+                <point x="4.838774169e+05" y="6.471569586e+06" z="0.000000000e+00"/>
+                <point x="4.838764551e+05" y="6.471571183e+06" z="0.000000000e+00"/>
+                <point x="4.838747749e+05" y="6.471574570e+06" z="0.000000000e+00"/>
+                <point x="4.838730013e+05" y="6.471578567e+06" z="0.000000000e+00"/>
+                <point x="4.838724536e+05" y="6.471580249e+06" z="0.000000000e+00"/>
+                <point x="4.838719991e+05" y="6.471582195e+06" z="0.000000000e+00"/>
+                <point x="4.838717030e+05" y="6.471584239e+06" z="0.000000000e+00"/>
+                <point x="4.838715899e+05" y="6.471586325e+06" z="0.000000000e+00"/>
+                <point x="4.838716766e+05" y="6.471588441e+06" z="0.000000000e+00"/>
+                <point x="4.838718005e+05" y="6.471589555e+06" z="0.000000000e+00"/>
+                <point x="4.838724237e+05" y="6.471593242e+06" z="0.000000000e+00"/>
+                <point x="4.838733760e+05" y="6.471598218e+06" z="0.000000000e+00"/>
+                <point x="4.838739514e+05" y="6.471600884e+06" z="0.000000000e+00"/>
+                <point x="4.838744623e+05" y="6.471602892e+06" z="0.000000000e+00"/>
+                <point x="4.838749683e+05" y="6.471604433e+06" z="0.000000000e+00"/>
+                <point x="4.838755937e+05" y="6.471605688e+06" z="0.000000000e+00"/>
+                <point x="4.838766248e+05" y="6.471607276e+06" z="0.000000000e+00"/>
+                <point x="4.838772999e+05" y="6.471608219e+06" z="0.000000000e+00"/>
+                <point x="4.838825351e+05" y="6.471615156e+06" z="0.000000000e+00"/>
+                <point x="4.838852376e+05" y="6.471618487e+06" z="0.000000000e+00"/>
+                <point x="4.838862738e+05" y="6.471619623e+06" z="0.000000000e+00"/>
+                <point x="4.838870841e+05" y="6.471620375e+06" z="0.000000000e+00"/>
+                <point x="4.838880416e+05" y="6.471621128e+06" z="0.000000000e+00"/>
+                <point x="4.838891363e+05" y="6.471621883e+06" z="0.000000000e+00"/>
+                <point x="4.838903713e+05" y="6.471622646e+06" z="0.000000000e+00"/>
+                <point x="4.838917543e+05" y="6.471623424e+06" z="0.000000000e+00"/>
+                <point x="4.838932155e+05" y="6.471624170e+06" z="0.000000000e+00"/>
+                <point x="4.838947656e+05" y="6.471624890e+06" z="0.000000000e+00"/>
+                <point x="4.838980544e+05" y="6.471626215e+06" z="0.000000000e+00"/>
+                <point x="4.838998230e+05" y="6.471626808e+06" z="0.000000000e+00"/>
+                <point x="4.839016232e+05" y="6.471627325e+06" z="0.000000000e+00"/>
+                <point x="4.839034676e+05" y="6.471627773e+06" z="0.000000000e+00"/>
+                <point x="4.839053601e+05" y="6.471628152e+06" z="0.000000000e+00"/>
+                <point x="4.839074585e+05" y="6.471628476e+06" z="0.000000000e+00"/>
+                <point x="4.839097540e+05" y="6.471628745e+06" z="0.000000000e+00"/>
+                <point x="4.839122557e+05" y="6.471628960e+06" z="0.000000000e+00"/>
+                <point x="4.839178353e+05" y="6.471629251e+06" z="0.000000000e+00"/>
+                <point x="4.839242739e+05" y="6.471629422e+06" z="0.000000000e+00"/>
+                <point x="4.839288981e+05" y="6.471629463e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+          <boundary type="rightBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.839443457e+05" y="6.471587852e+06" z="0.000000000e+00"/>
+                <point x="4.838954657e+05" y="6.471567226e+06" z="0.000000000e+00"/>
+                <point x="4.838935127e+05" y="6.471566492e+06" z="0.000000000e+00"/>
+                <point x="4.838930945e+05" y="6.471566404e+06" z="0.000000000e+00"/>
+                <point x="4.838917730e+05" y="6.471566290e+06" z="0.000000000e+00"/>
+                <point x="4.838901947e+05" y="6.471566338e+06" z="0.000000000e+00"/>
+                <point x="4.838885657e+05" y="6.471566551e+06" z="0.000000000e+00"/>
+                <point x="4.838869327e+05" y="6.471566916e+06" z="0.000000000e+00"/>
+                <point x="4.838854339e+05" y="6.471567382e+06" z="0.000000000e+00"/>
+                <point x="4.838841059e+05" y="6.471567936e+06" z="0.000000000e+00"/>
+                <point x="4.838829567e+05" y="6.471568584e+06" z="0.000000000e+00"/>
+                <point x="4.838824986e+05" y="6.471568907e+06" z="0.000000000e+00"/>
+                <point x="4.838820634e+05" y="6.471569272e+06" z="0.000000000e+00"/>
+                <point x="4.838811327e+05" y="6.471570260e+06" z="0.000000000e+00"/>
+                <point x="4.838802527e+05" y="6.471571467e+06" z="0.000000000e+00"/>
+                <point x="4.838794394e+05" y="6.471572818e+06" z="0.000000000e+00"/>
+                <point x="4.838778531e+05" y="6.471576016e+06" z="0.000000000e+00"/>
+                <point x="4.838761801e+05" y="6.471579786e+06" z="0.000000000e+00"/>
+                <point x="4.838757315e+05" y="6.471581164e+06" z="0.000000000e+00"/>
+                <point x="4.838753431e+05" y="6.471582826e+06" z="0.000000000e+00"/>
+                <point x="4.838750898e+05" y="6.471584576e+06" z="0.000000000e+00"/>
+                <point x="4.838749937e+05" y="6.471586348e+06" z="0.000000000e+00"/>
+                <point x="4.838750688e+05" y="6.471588183e+06" z="0.000000000e+00"/>
+                <point x="4.838751690e+05" y="6.471589083e+06" z="0.000000000e+00"/>
+                <point x="4.838757700e+05" y="6.471592639e+06" z="0.000000000e+00"/>
+                <point x="4.838767079e+05" y="6.471597540e+06" z="0.000000000e+00"/>
+                <point x="4.838772618e+05" y="6.471600106e+06" z="0.000000000e+00"/>
+                <point x="4.838777288e+05" y="6.471601942e+06" z="0.000000000e+00"/>
+                <point x="4.838781215e+05" y="6.471603138e+06" z="0.000000000e+00"/>
+                <point x="4.838785505e+05" y="6.471603999e+06" z="0.000000000e+00"/>
+                <point x="4.838794343e+05" y="6.471605360e+06" z="0.000000000e+00"/>
+                <point x="4.838800394e+05" y="6.471606205e+06" z="0.000000000e+00"/>
+                <point x="4.838852130e+05" y="6.471613060e+06" z="0.000000000e+00"/>
+                <point x="4.838878161e+05" y="6.471616269e+06" z="0.000000000e+00"/>
+                <point x="4.838886901e+05" y="6.471617227e+06" z="0.000000000e+00"/>
+                <point x="4.838892950e+05" y="6.471617788e+06" z="0.000000000e+00"/>
+                <point x="4.838900603e+05" y="6.471618390e+06" z="0.000000000e+00"/>
+                <point x="4.838909961e+05" y="6.471619036e+06" z="0.000000000e+00"/>
+                <point x="4.838920991e+05" y="6.471619717e+06" z="0.000000000e+00"/>
+                <point x="4.838933617e+05" y="6.471620428e+06" z="0.000000000e+00"/>
+                <point x="4.838947048e+05" y="6.471621113e+06" z="0.000000000e+00"/>
+                <point x="4.838961177e+05" y="6.471621769e+06" z="0.000000000e+00"/>
+                <point x="4.838992307e+05" y="6.471623024e+06" z="0.000000000e+00"/>
+                <point x="4.839008332e+05" y="6.471623560e+06" z="0.000000000e+00"/>
+                <point x="4.839024947e+05" y="6.471624038e+06" z="0.000000000e+00"/>
+                <point x="4.839042029e+05" y="6.471624453e+06" z="0.000000000e+00"/>
+                <point x="4.839059536e+05" y="6.471624804e+06" z="0.000000000e+00"/>
+                <point x="4.839079155e+05" y="6.471625107e+06" z="0.000000000e+00"/>
+                <point x="4.839100973e+05" y="6.471625362e+06" z="0.000000000e+00"/>
+                <point x="4.839124899e+05" y="6.471625568e+06" z="0.000000000e+00"/>
+                <point x="4.839179689e+05" y="6.471625853e+06" z="0.000000000e+00"/>
+                <point x="4.839243340e+05" y="6.471626022e+06" z="0.000000000e+00"/>
+                <point x="4.839289282e+05" y="6.471626063e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+        </boundaries>
+        <center>
+          <lane id="0" uid="c0_1" type="none">
+            <border virtual="FALSE">
+              <geometry sOffset="0" x="4.839456675e+05" y="6.471584719e+06" z="0.000000000e+00" length="174.9381139804463">
+                <pointSet>
+                  <point x="4.839456675e+05" y="6.471584719e+06" z="0.000000000e+00"/>
+                  <point x="4.838967251e+05" y="6.471564067e+06" z="0.000000000e+00"/>
+                  <point x="4.838944664e+05" y="6.471563218e+06" z="0.000000000e+00"/>
+                  <point x="4.838935928e+05" y="6.471563034e+06" z="0.000000000e+00"/>
+                  <point x="4.838918673e+05" y="6.471562885e+06" z="0.000000000e+00"/>
+                  <point x="4.838899216e+05" y="6.471562945e+06" z="0.000000000e+00"/>
+                  <point x="4.838879733e+05" y="6.471563200e+06" z="0.000000000e+00"/>
+                  <point x="4.838860559e+05" y="6.471563628e+06" z="0.000000000e+00"/>
+                  <point x="4.838842724e+05" y="6.471564183e+06" z="0.000000000e+00"/>
+                  <point x="4.838826110e+05" y="6.471564876e+06" z="0.000000000e+00"/>
+                  <point x="4.838811382e+05" y="6.471565706e+06" z="0.000000000e+00"/>
+                  <point x="4.838804231e+05" y="6.471566210e+06" z="0.000000000e+00"/>
+                  <point x="4.838797254e+05" y="6.471566796e+06" z="0.000000000e+00"/>
+                  <point x="4.838785112e+05" y="6.471568084e+06" z="0.000000000e+00"/>
+                  <point x="4.838774169e+05" y="6.471569586e+06" z="0.000000000e+00"/>
+                  <point x="4.838764551e+05" y="6.471571183e+06" z="0.000000000e+00"/>
+                  <point x="4.838747749e+05" y="6.471574570e+06" z="0.000000000e+00"/>
+                  <point x="4.838730013e+05" y="6.471578567e+06" z="0.000000000e+00"/>
+                  <point x="4.838724536e+05" y="6.471580249e+06" z="0.000000000e+00"/>
+                  <point x="4.838719991e+05" y="6.471582195e+06" z="0.000000000e+00"/>
+                  <point x="4.838717030e+05" y="6.471584239e+06" z="0.000000000e+00"/>
+                  <point x="4.838715899e+05" y="6.471586325e+06" z="0.000000000e+00"/>
+                  <point x="4.838716766e+05" y="6.471588441e+06" z="0.000000000e+00"/>
+                  <point x="4.838718005e+05" y="6.471589555e+06" z="0.000000000e+00"/>
+                  <point x="4.838724237e+05" y="6.471593242e+06" z="0.000000000e+00"/>
+                  <point x="4.838733760e+05" y="6.471598218e+06" z="0.000000000e+00"/>
+                  <point x="4.838739514e+05" y="6.471600884e+06" z="0.000000000e+00"/>
+                  <point x="4.838744623e+05" y="6.471602892e+06" z="0.000000000e+00"/>
+                  <point x="4.838749683e+05" y="6.471604433e+06" z="0.000000000e+00"/>
+                  <point x="4.838755937e+05" y="6.471605688e+06" z="0.000000000e+00"/>
+                  <point x="4.838766248e+05" y="6.471607276e+06" z="0.000000000e+00"/>
+                  <point x="4.838772999e+05" y="6.471608219e+06" z="0.000000000e+00"/>
+                  <point x="4.838825351e+05" y="6.471615156e+06" z="0.000000000e+00"/>
+                  <point x="4.838852376e+05" y="6.471618487e+06" z="0.000000000e+00"/>
+                  <point x="4.838862738e+05" y="6.471619623e+06" z="0.000000000e+00"/>
+                  <point x="4.838870841e+05" y="6.471620375e+06" z="0.000000000e+00"/>
+                  <point x="4.838880416e+05" y="6.471621128e+06" z="0.000000000e+00"/>
+                  <point x="4.838891363e+05" y="6.471621883e+06" z="0.000000000e+00"/>
+                  <point x="4.838903713e+05" y="6.471622646e+06" z="0.000000000e+00"/>
+                  <point x="4.838917543e+05" y="6.471623424e+06" z="0.000000000e+00"/>
+                  <point x="4.838932155e+05" y="6.471624170e+06" z="0.000000000e+00"/>
+                  <point x="4.838947656e+05" y="6.471624890e+06" z="0.000000000e+00"/>
+                  <point x="4.838980544e+05" y="6.471626215e+06" z="0.000000000e+00"/>
+                  <point x="4.838998230e+05" y="6.471626808e+06" z="0.000000000e+00"/>
+                  <point x="4.839016232e+05" y="6.471627325e+06" z="0.000000000e+00"/>
+                  <point x="4.839034676e+05" y="6.471627773e+06" z="0.000000000e+00"/>
+                  <point x="4.839053601e+05" y="6.471628152e+06" z="0.000000000e+00"/>
+                  <point x="4.839074585e+05" y="6.471628476e+06" z="0.000000000e+00"/>
+                  <point x="4.839097540e+05" y="6.471628745e+06" z="0.000000000e+00"/>
+                  <point x="4.839122557e+05" y="6.471628960e+06" z="0.000000000e+00"/>
+                  <point x="4.839178353e+05" y="6.471629251e+06" z="0.000000000e+00"/>
+                  <point x="4.839242739e+05" y="6.471629422e+06" z="0.000000000e+00"/>
+                  <point x="4.839288981e+05" y="6.471629463e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0" type="solid" color="yellow"/>
+            </border>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" uid="r1_1" type="driving" direction="forward" turnType="noTurn">
+            <centerLine>
+              <geometry sOffset="0" x="4.839450066e+05" y="6.471586285e+06" z="0.000000000e+00" length="168.929360173615">
+                <pointSet>
+                  <point x="4.839450066e+05" y="6.471586285e+06" z="0.000000000e+00"/>
+                  <point x="4.838960954e+05" y="6.471565646e+06" z="0.000000000e+00"/>
+                  <point x="4.838939896e+05" y="6.471564855e+06" z="0.000000000e+00"/>
+                  <point x="4.838933437e+05" y="6.471564719e+06" z="0.000000000e+00"/>
+                  <point x="4.838918201e+05" y="6.471564588e+06" z="0.000000000e+00"/>
+                  <point x="4.838900581e+05" y="6.471564642e+06" z="0.000000000e+00"/>
+                  <point x="4.838882695e+05" y="6.471564876e+06" z="0.000000000e+00"/>
+                  <point x="4.838864943e+05" y="6.471565272e+06" z="0.000000000e+00"/>
+                  <point x="4.838848531e+05" y="6.471565782e+06" z="0.000000000e+00"/>
+                  <point x="4.838833584e+05" y="6.471566406e+06" z="0.000000000e+00"/>
+                  <point x="4.838820474e+05" y="6.471567145e+06" z="0.000000000e+00"/>
+                  <point x="4.838814608e+05" y="6.471567558e+06" z="0.000000000e+00"/>
+                  <point x="4.838808944e+05" y="6.471568034e+06" z="0.000000000e+00"/>
+                  <point x="4.838798219e+05" y="6.471569172e+06" z="0.000000000e+00"/>
+                  <point x="4.838788348e+05" y="6.471570526e+06" z="0.000000000e+00"/>
+                  <point x="4.838779473e+05" y="6.471572001e+06" z="0.000000000e+00"/>
+                  <point x="4.838763140e+05" y="6.471575293e+06" z="0.000000000e+00"/>
+                  <point x="4.838745907e+05" y="6.471579176e+06" z="0.000000000e+00"/>
+                  <point x="4.838740925e+05" y="6.471580706e+06" z="0.000000000e+00"/>
+                  <point x="4.838736711e+05" y="6.471582511e+06" z="0.000000000e+00"/>
+                  <point x="4.838733964e+05" y="6.471584408e+06" z="0.000000000e+00"/>
+                  <point x="4.838732918e+05" y="6.471586337e+06" z="0.000000000e+00"/>
+                  <point x="4.838733727e+05" y="6.471588312e+06" z="0.000000000e+00"/>
+                  <point x="4.838734847e+05" y="6.471589319e+06" z="0.000000000e+00"/>
+                  <point x="4.838740968e+05" y="6.471592940e+06" z="0.000000000e+00"/>
+                  <point x="4.838750419e+05" y="6.471597879e+06" z="0.000000000e+00"/>
+                  <point x="4.838756066e+05" y="6.471600495e+06" z="0.000000000e+00"/>
+                  <point x="4.838760956e+05" y="6.471602417e+06" z="0.000000000e+00"/>
+                  <point x="4.838765449e+05" y="6.471603786e+06" z="0.000000000e+00"/>
+                  <point x="4.838770721e+05" y="6.471604843e+06" z="0.000000000e+00"/>
+                  <point x="4.838780296e+05" y="6.471606318e+06" z="0.000000000e+00"/>
+                  <point x="4.838786697e+05" y="6.471607212e+06" z="0.000000000e+00"/>
+                  <point x="4.838838740e+05" y="6.471614108e+06" z="0.000000000e+00"/>
+                  <point x="4.838865268e+05" y="6.471617378e+06" z="0.000000000e+00"/>
+                  <point x="4.838874820e+05" y="6.471618425e+06" z="0.000000000e+00"/>
+                  <point x="4.838881896e+05" y="6.471619081e+06" z="0.000000000e+00"/>
+                  <point x="4.838890510e+05" y="6.471619759e+06" z="0.000000000e+00"/>
+                  <point x="4.838900662e+05" y="6.471620459e+06" z="0.000000000e+00"/>
+                  <point x="4.838912352e+05" y="6.471621182e+06" z="0.000000000e+00"/>
+                  <point x="4.838925580e+05" y="6.471621926e+06" z="0.000000000e+00"/>
+                  <point x="4.838939602e+05" y="6.471622642e+06" z="0.000000000e+00"/>
+                  <point x="4.838954416e+05" y="6.471623329e+06" z="0.000000000e+00"/>
+                  <point x="4.838986426e+05" y="6.471624620e+06" z="0.000000000e+00"/>
+                  <point x="4.839003281e+05" y="6.471625184e+06" z="0.000000000e+00"/>
+                  <point x="4.839020590e+05" y="6.471625682e+06" z="0.000000000e+00"/>
+                  <point x="4.839038352e+05" y="6.471626113e+06" z="0.000000000e+00"/>
+                  <point x="4.839056569e+05" y="6.471626478e+06" z="0.000000000e+00"/>
+                  <point x="4.839076870e+05" y="6.471626791e+06" z="0.000000000e+00"/>
+                  <point x="4.839099256e+05" y="6.471627053e+06" z="0.000000000e+00"/>
+                  <point x="4.839123728e+05" y="6.471627264e+06" z="0.000000000e+00"/>
+                  <point x="4.839179021e+05" y="6.471627552e+06" z="0.000000000e+00"/>
+                  <point x="4.839243039e+05" y="6.471627722e+06" z="0.000000000e+00"/>
+                  <point x="4.839289131e+05" y="6.471627763e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </centerLine>
+            <speed max="50"/>
+            <border virtual="FALSE">
+              <borderType sOffset="0" type="solid" color="white"/>
+              <geometry sOffset="0" x="4.839443457e+05" y="6.471587852e+06" z="0.000000000e+00" length="162.92060636678374">
+                <pointSet>
+                  <point x="4.839443457e+05" y="6.471587852e+06" z="0.000000000e+00"/>
+                  <point x="4.838954657e+05" y="6.471567226e+06" z="0.000000000e+00"/>
+                  <point x="4.838935127e+05" y="6.471566492e+06" z="0.000000000e+00"/>
+                  <point x="4.838930945e+05" y="6.471566404e+06" z="0.000000000e+00"/>
+                  <point x="4.838917730e+05" y="6.471566290e+06" z="0.000000000e+00"/>
+                  <point x="4.838901947e+05" y="6.471566338e+06" z="0.000000000e+00"/>
+                  <point x="4.838885657e+05" y="6.471566551e+06" z="0.000000000e+00"/>
+                  <point x="4.838869327e+05" y="6.471566916e+06" z="0.000000000e+00"/>
+                  <point x="4.838854339e+05" y="6.471567382e+06" z="0.000000000e+00"/>
+                  <point x="4.838841059e+05" y="6.471567936e+06" z="0.000000000e+00"/>
+                  <point x="4.838829567e+05" y="6.471568584e+06" z="0.000000000e+00"/>
+                  <point x="4.838824986e+05" y="6.471568907e+06" z="0.000000000e+00"/>
+                  <point x="4.838820634e+05" y="6.471569272e+06" z="0.000000000e+00"/>
+                  <point x="4.838811327e+05" y="6.471570260e+06" z="0.000000000e+00"/>
+                  <point x="4.838802527e+05" y="6.471571467e+06" z="0.000000000e+00"/>
+                  <point x="4.838794394e+05" y="6.471572818e+06" z="0.000000000e+00"/>
+                  <point x="4.838778531e+05" y="6.471576016e+06" z="0.000000000e+00"/>
+                  <point x="4.838761801e+05" y="6.471579786e+06" z="0.000000000e+00"/>
+                  <point x="4.838757315e+05" y="6.471581164e+06" z="0.000000000e+00"/>
+                  <point x="4.838753431e+05" y="6.471582826e+06" z="0.000000000e+00"/>
+                  <point x="4.838750898e+05" y="6.471584576e+06" z="0.000000000e+00"/>
+                  <point x="4.838749937e+05" y="6.471586348e+06" z="0.000000000e+00"/>
+                  <point x="4.838750688e+05" y="6.471588183e+06" z="0.000000000e+00"/>
+                  <point x="4.838751690e+05" y="6.471589083e+06" z="0.000000000e+00"/>
+                  <point x="4.838757700e+05" y="6.471592639e+06" z="0.000000000e+00"/>
+                  <point x="4.838767079e+05" y="6.471597540e+06" z="0.000000000e+00"/>
+                  <point x="4.838772618e+05" y="6.471600106e+06" z="0.000000000e+00"/>
+                  <point x="4.838777288e+05" y="6.471601942e+06" z="0.000000000e+00"/>
+                  <point x="4.838781215e+05" y="6.471603138e+06" z="0.000000000e+00"/>
+                  <point x="4.838785505e+05" y="6.471603999e+06" z="0.000000000e+00"/>
+                  <point x="4.838794343e+05" y="6.471605360e+06" z="0.000000000e+00"/>
+                  <point x="4.838800394e+05" y="6.471606205e+06" z="0.000000000e+00"/>
+                  <point x="4.838852130e+05" y="6.471613060e+06" z="0.000000000e+00"/>
+                  <point x="4.838878161e+05" y="6.471616269e+06" z="0.000000000e+00"/>
+                  <point x="4.838886901e+05" y="6.471617227e+06" z="0.000000000e+00"/>
+                  <point x="4.838892950e+05" y="6.471617788e+06" z="0.000000000e+00"/>
+                  <point x="4.838900603e+05" y="6.471618390e+06" z="0.000000000e+00"/>
+                  <point x="4.838909961e+05" y="6.471619036e+06" z="0.000000000e+00"/>
+                  <point x="4.838920991e+05" y="6.471619717e+06" z="0.000000000e+00"/>
+                  <point x="4.838933617e+05" y="6.471620428e+06" z="0.000000000e+00"/>
+                  <point x="4.838947048e+05" y="6.471621113e+06" z="0.000000000e+00"/>
+                  <point x="4.838961177e+05" y="6.471621769e+06" z="0.000000000e+00"/>
+                  <point x="4.838992307e+05" y="6.471623024e+06" z="0.000000000e+00"/>
+                  <point x="4.839008332e+05" y="6.471623560e+06" z="0.000000000e+00"/>
+                  <point x="4.839024947e+05" y="6.471624038e+06" z="0.000000000e+00"/>
+                  <point x="4.839042029e+05" y="6.471624453e+06" z="0.000000000e+00"/>
+                  <point x="4.839059536e+05" y="6.471624804e+06" z="0.000000000e+00"/>
+                  <point x="4.839079155e+05" y="6.471625107e+06" z="0.000000000e+00"/>
+                  <point x="4.839100973e+05" y="6.471625362e+06" z="0.000000000e+00"/>
+                  <point x="4.839124899e+05" y="6.471625568e+06" z="0.000000000e+00"/>
+                  <point x="4.839179689e+05" y="6.471625853e+06" z="0.000000000e+00"/>
+                  <point x="4.839243340e+05" y="6.471626022e+06" z="0.000000000e+00"/>
+                  <point x="4.839289282e+05" y="6.471626063e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </border>
+            <link>
+              <predecessor id="r1_3"/>
+              <successor id="r1_2"/>
+            </link>
+            <sampleAssociates>
+              <sampleAssociate sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="3" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="6" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="9" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="12" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="15" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="19" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="22" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="25" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="28" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="31" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="35" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="38" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="41" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="44" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="47" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="50" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="54" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="57" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="60" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="63" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="66" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="70" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="73" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="76" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="79" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="86" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="89" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="95" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="98" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="101" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="105" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="108" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="111" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="114" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="117" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="121" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="124" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="127" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="130" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="133" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="137" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="140" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="143" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="146" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="149" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="152" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="156" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="159" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="162" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="165" leftWidth="1.7" rightWidth="1.7"/>
+            </sampleAssociates>
+            <roadSampleAssociations>
+              <sampleAssociation sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="3" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="6" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="9" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="12" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="15" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="19" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="22" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="25" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="28" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="31" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="35" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="38" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="41" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="44" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="47" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="50" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="54" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="57" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="60" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="63" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="66" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="70" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="73" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="76" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="79" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="86" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="89" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="95" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="98" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="101" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="105" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="108" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="111" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="114" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="117" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="121" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="124" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="127" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="130" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="133" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="137" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="140" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="143" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="146" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="149" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="152" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="156" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="159" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="162" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="165" leftWidth="1.7" rightWidth="1.7"/>
+            </roadSampleAssociations>
+            <objectOverlapGroup>
+              <objectReference id="stopline_1" startOffset="78.22220871692834" endOffset="78.82220871692833" isMerge="false"/>
+              <objectReference id="stopline_2" startOffset="105.4526234131903" endOffset="106.05262341319029" isMerge="false"/>
+              <objectReference id="stopline_3" startOffset="123.80055487491369" endOffset="124.40055487491368" isMerge="false"/>
+            </objectOverlapGroup>
+            <signalOverlapGroup>
+              <signalReference id="stopsign_2" startOffset="78.22220871692834" endOffset="78.82220871692833" isMerge="false"/>
+              <signalReference id="yieldsign_1" startOffset="123.80055487491369" endOffset="124.40055487491368" isMerge="false"/>
+            </signalOverlapGroup>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects>
+      <object id="stopline_1" type="stopline">
+        <geometry length="2.9989767741542575" sOffset="0" x="4.838751396e+05" y="6.471574047e+06" z="0.000000000e+00">
+          <pointSet>
+            <point x="4.838751396e+05" y="6.471574047e+06" z="0.000000000e+00"/>
+            <point x="4.838765145e+05" y="6.471574645e+06" z="0.000000000e+00"/>
+            <point x="4.838778895e+05" y="6.471575244e+06" z="0.000000000e+00"/>
+          </pointSet>
+        </geometry>
+      </object>
+      <object id="stopline_2" type="stopline">
+        <geometry length="2.998976818332426" sOffset="0" x="4.838727276e+05" y="6.471593594e+06" z="0.000000000e+00">
+          <pointSet>
+            <point x="4.838727276e+05" y="6.471593594e+06" z="0.000000000e+00"/>
+            <point x="4.838741982e+05" y="6.471593301e+06" z="0.000000000e+00"/>
+            <point x="4.838756689e+05" y="6.471593009e+06" z="0.000000000e+00"/>
+          </pointSet>
+        </geometry>
+      </object>
+      <object id="stopline_3" type="stopline">
+        <geometry length="2.9989768582872034" sOffset="0" x="4.838852190e+05" y="6.471618338e+06" z="0.000000000e+00">
+          <pointSet>
+            <point x="4.838852190e+05" y="6.471618338e+06" z="0.000000000e+00"/>
+            <point x="4.838864206e+05" y="6.471617441e+06" z="0.000000000e+00"/>
+            <point x="4.838876221e+05" y="6.471616544e+06" z="0.000000000e+00"/>
+          </pointSet>
+        </geometry>
+      </object>
+    </objects>
+    <signals>
+      <signal id="stopsign_2" type="stopSign">
+        <stopline>
+          <objectReference id="stopline_1"/>
+        </stopline>
+        <attribute stopType="oneWay"/>
+      </signal>
+      <signal id="yieldsign_1" type="yieldSign">
+        <stopline>
+          <objectReference id="stopline_3"/>
+        </stopline>
+      </signal>
+    </signals>
+  </road>
+  <road name="" id="2" junction="-1">
+    <lanes>
+      <laneSection>
+        <boundaries>
+          <boundary type="leftBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.839288981e+05" y="6.471629463e+06" z="0.000000000e+00"/>
+                <point x="4.839519648e+05" y="6.471629667e+06" z="0.000000000e+00"/>
+                <point x="4.839584282e+05" y="6.471629781e+06" z="0.000000000e+00"/>
+                <point x="4.839616341e+05" y="6.471629933e+06" z="0.000000000e+00"/>
+                <point x="4.839626926e+05" y="6.471630033e+06" z="0.000000000e+00"/>
+                <point x="4.839633534e+05" y="6.471630136e+06" z="0.000000000e+00"/>
+                <point x="4.839636925e+05" y="6.471630237e+06" z="0.000000000e+00"/>
+                <point x="4.839644777e+05" y="6.471630526e+06" z="0.000000000e+00"/>
+                <point x="4.839650520e+05" y="6.471630805e+06" z="0.000000000e+00"/>
+                <point x="4.839652261e+05" y="6.471630937e+06" z="0.000000000e+00"/>
+                <point x="4.839660027e+05" y="6.471631755e+06" z="0.000000000e+00"/>
+                <point x="4.839664321e+05" y="6.471632310e+06" z="0.000000000e+00"/>
+                <point x="4.839682032e+05" y="6.471634910e+06" z="0.000000000e+00"/>
+                <point x="4.839725996e+05" y="6.471641657e+06" z="0.000000000e+00"/>
+                <point x="4.839756401e+05" y="6.471645940e+06" z="0.000000000e+00"/>
+                <point x="4.839785462e+05" y="6.471649666e+06" z="0.000000000e+00"/>
+                <point x="4.839799155e+05" y="6.471651296e+06" z="0.000000000e+00"/>
+                <point x="4.839812197e+05" y="6.471652758e+06" z="0.000000000e+00"/>
+                <point x="4.839824597e+05" y="6.471654053e+06" z="0.000000000e+00"/>
+                <point x="4.839837198e+05" y="6.471655294e+06" z="0.000000000e+00"/>
+                <point x="4.839862500e+05" y="6.471657564e+06" z="0.000000000e+00"/>
+                <point x="4.839887227e+05" y="6.471659540e+06" z="0.000000000e+00"/>
+                <point x="4.839908168e+05" y="6.471661081e+06" z="0.000000000e+00"/>
+                <point x="4.839917757e+05" y="6.471661725e+06" z="0.000000000e+00"/>
+                <point x="4.839940168e+05" y="6.471663014e+06" z="0.000000000e+00"/>
+                <point x="4.839953532e+05" y="6.471663694e+06" z="0.000000000e+00"/>
+                <point x="4.839983674e+05" y="6.471665105e+06" z="0.000000000e+00"/>
+                <point x="4.840041052e+05" y="6.471667653e+06" z="0.000000000e+00"/>
+                <point x="4.840069706e+05" y="6.471668862e+06" z="0.000000000e+00"/>
+                <point x="4.840293040e+05" y="6.471677996e+06" z="0.000000000e+00"/>
+                <point x="4.840448925e+05" y="6.471684596e+06" z="0.000000000e+00"/>
+                <point x="4.840460122e+05" y="6.471685025e+06" z="0.000000000e+00"/>
+                <point x="4.840483513e+05" y="6.471685809e+06" z="0.000000000e+00"/>
+                <point x="4.840496504e+05" y="6.471686191e+06" z="0.000000000e+00"/>
+                <point x="4.840520264e+05" y="6.471686726e+06" z="0.000000000e+00"/>
+                <point x="4.840531845e+05" y="6.471686895e+06" z="0.000000000e+00"/>
+                <point x="4.840542807e+05" y="6.471686988e+06" z="0.000000000e+00"/>
+                <point x="4.840564941e+05" y="6.471687019e+06" z="0.000000000e+00"/>
+                <point x="4.840577150e+05" y="6.471686959e+06" z="0.000000000e+00"/>
+                <point x="4.840600967e+05" y="6.471686690e+06" z="0.000000000e+00"/>
+                <point x="4.840612630e+05" y="6.471686462e+06" z="0.000000000e+00"/>
+                <point x="4.840623600e+05" y="6.471686179e+06" z="0.000000000e+00"/>
+                <point x="4.840634099e+05" y="6.471685834e+06" z="0.000000000e+00"/>
+                <point x="4.840644713e+05" y="6.471685400e+06" z="0.000000000e+00"/>
+                <point x="4.840655348e+05" y="6.471684882e+06" z="0.000000000e+00"/>
+                <point x="4.840666012e+05" y="6.471684281e+06" z="0.000000000e+00"/>
+                <point x="4.840676904e+05" y="6.471683586e+06" z="0.000000000e+00"/>
+                <point x="4.840687566e+05" y="6.471682787e+06" z="0.000000000e+00"/>
+                <point x="4.840697814e+05" y="6.471681895e+06" z="0.000000000e+00"/>
+                <point x="4.840707651e+05" y="6.471680913e+06" z="0.000000000e+00"/>
+                <point x="4.840717140e+05" y="6.471679836e+06" z="0.000000000e+00"/>
+                <point x="4.840726416e+05" y="6.471678620e+06" z="0.000000000e+00"/>
+                <point x="4.840735420e+05" y="6.471677276e+06" z="0.000000000e+00"/>
+                <point x="4.840744182e+05" y="6.471675804e+06" z="0.000000000e+00"/>
+                <point x="4.840752732e+05" y="6.471674202e+06" z="0.000000000e+00"/>
+                <point x="4.840774139e+05" y="6.471669740e+06" z="0.000000000e+00"/>
+                <point x="4.840777209e+05" y="6.471669048e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+          <boundary type="rightBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.839289282e+05" y="6.471626063e+06" z="0.000000000e+00"/>
+                <point x="4.839520098e+05" y="6.471626267e+06" z="0.000000000e+00"/>
+                <point x="4.839585389e+05" y="6.471626382e+06" z="0.000000000e+00"/>
+                <point x="4.839618747e+05" y="6.471626541e+06" z="0.000000000e+00"/>
+                <point x="4.839631144e+05" y="6.471626658e+06" z="0.000000000e+00"/>
+                <point x="4.839641032e+05" y="6.471626812e+06" z="0.000000000e+00"/>
+                <point x="4.839647653e+05" y="6.471627009e+06" z="0.000000000e+00"/>
+                <point x="4.839658110e+05" y="6.471627394e+06" z="0.000000000e+00"/>
+                <point x="4.839668390e+05" y="6.471627893e+06" z="0.000000000e+00"/>
+                <point x="4.839675010e+05" y="6.471628395e+06" z="0.000000000e+00"/>
+                <point x="4.839685873e+05" y="6.471629539e+06" z="0.000000000e+00"/>
+                <point x="4.839691846e+05" y="6.471630312e+06" z="0.000000000e+00"/>
+                <point x="4.839710328e+05" y="6.471633025e+06" z="0.000000000e+00"/>
+                <point x="4.839754113e+05" y="6.471639744e+06" z="0.000000000e+00"/>
+                <point x="4.839783681e+05" y="6.471643910e+06" z="0.000000000e+00"/>
+                <point x="4.839811891e+05" y="6.471647526e+06" z="0.000000000e+00"/>
+                <point x="4.839824864e+05" y="6.471649070e+06" z="0.000000000e+00"/>
+                <point x="4.839837173e+05" y="6.471650450e+06" z="0.000000000e+00"/>
+                <point x="4.839848811e+05" y="6.471651666e+06" z="0.000000000e+00"/>
+                <point x="4.839860490e+05" y="6.471652816e+06" z="0.000000000e+00"/>
+                <point x="4.839884482e+05" y="6.471654968e+06" z="0.000000000e+00"/>
+                <point x="4.839907925e+05" y="6.471656841e+06" z="0.000000000e+00"/>
+                <point x="4.839927731e+05" y="6.471658299e+06" z="0.000000000e+00"/>
+                <point x="4.839935731e+05" y="6.471658837e+06" z="0.000000000e+00"/>
+                <point x="4.839956362e+05" y="6.471660023e+06" z="0.000000000e+00"/>
+                <point x="4.839968451e+05" y="6.471660638e+06" z="0.000000000e+00"/>
+                <point x="4.839997781e+05" y="6.471662011e+06" z="0.000000000e+00"/>
+                <point x="4.840054562e+05" y="6.471664532e+06" z="0.000000000e+00"/>
+                <point x="4.840082752e+05" y="6.471665722e+06" z="0.000000000e+00"/>
+                <point x="4.840306104e+05" y="6.471674857e+06" z="0.000000000e+00"/>
+                <point x="4.840461636e+05" y="6.471681442e+06" z="0.000000000e+00"/>
+                <point x="4.840471608e+05" y="6.471681824e+06" z="0.000000000e+00"/>
+                <point x="4.840493710e+05" y="6.471682565e+06" z="0.000000000e+00"/>
+                <point x="4.840505043e+05" y="6.471682898e+06" z="0.000000000e+00"/>
+                <point x="4.840526466e+05" y="6.471683381e+06" z="0.000000000e+00"/>
+                <point x="4.840535743e+05" y="6.471683516e+06" z="0.000000000e+00"/>
+                <point x="4.840544483e+05" y="6.471683590e+06" z="0.000000000e+00"/>
+                <point x="4.840564335e+05" y="6.471683618e+06" z="0.000000000e+00"/>
+                <point x="4.840574408e+05" y="6.471683568e+06" z="0.000000000e+00"/>
+                <point x="4.840595795e+05" y="6.471683327e+06" z="0.000000000e+00"/>
+                <point x="4.840605108e+05" y="6.471683145e+06" z="0.000000000e+00"/>
+                <point x="4.840614031e+05" y="6.471682915e+06" z="0.000000000e+00"/>
+                <point x="4.840622342e+05" y="6.471682642e+06" z="0.000000000e+00"/>
+                <point x="4.840630814e+05" y="6.471682295e+06" z="0.000000000e+00"/>
+                <point x="4.840639541e+05" y="6.471681870e+06" z="0.000000000e+00"/>
+                <point x="4.840648515e+05" y="6.471681364e+06" z="0.000000000e+00"/>
+                <point x="4.840657538e+05" y="6.471680789e+06" z="0.000000000e+00"/>
+                <point x="4.840666178e+05" y="6.471680141e+06" z="0.000000000e+00"/>
+                <point x="4.840674619e+05" y="6.471679406e+06" z="0.000000000e+00"/>
+                <point x="4.840682859e+05" y="6.471678584e+06" z="0.000000000e+00"/>
+                <point x="4.840690833e+05" y="6.471677678e+06" z="0.000000000e+00"/>
+                <point x="4.840698750e+05" y="6.471676640e+06" z="0.000000000e+00"/>
+                <point x="4.840706669e+05" y="6.471675459e+06" z="0.000000000e+00"/>
+                <point x="4.840714561e+05" y="6.471674133e+06" z="0.000000000e+00"/>
+                <point x="4.840722393e+05" y="6.471672666e+06" z="0.000000000e+00"/>
+                <point x="4.840743267e+05" y="6.471668314e+06" z="0.000000000e+00"/>
+                <point x="4.840746133e+05" y="6.471667668e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+        </boundaries>
+        <center>
+          <lane id="0" uid="c0_2" type="none">
+            <border virtual="FALSE">
+              <geometry sOffset="0" x="4.839288981e+05" y="6.471629463e+06" z="0.000000000e+00" length="177.08427166237712">
+                <pointSet>
+                  <point x="4.839288981e+05" y="6.471629463e+06" z="0.000000000e+00"/>
+                  <point x="4.839519648e+05" y="6.471629667e+06" z="0.000000000e+00"/>
+                  <point x="4.839584282e+05" y="6.471629781e+06" z="0.000000000e+00"/>
+                  <point x="4.839616341e+05" y="6.471629933e+06" z="0.000000000e+00"/>
+                  <point x="4.839626926e+05" y="6.471630033e+06" z="0.000000000e+00"/>
+                  <point x="4.839633534e+05" y="6.471630136e+06" z="0.000000000e+00"/>
+                  <point x="4.839636925e+05" y="6.471630237e+06" z="0.000000000e+00"/>
+                  <point x="4.839644777e+05" y="6.471630526e+06" z="0.000000000e+00"/>
+                  <point x="4.839650520e+05" y="6.471630805e+06" z="0.000000000e+00"/>
+                  <point x="4.839652261e+05" y="6.471630937e+06" z="0.000000000e+00"/>
+                  <point x="4.839660027e+05" y="6.471631755e+06" z="0.000000000e+00"/>
+                  <point x="4.839664321e+05" y="6.471632310e+06" z="0.000000000e+00"/>
+                  <point x="4.839682032e+05" y="6.471634910e+06" z="0.000000000e+00"/>
+                  <point x="4.839725996e+05" y="6.471641657e+06" z="0.000000000e+00"/>
+                  <point x="4.839756401e+05" y="6.471645940e+06" z="0.000000000e+00"/>
+                  <point x="4.839785462e+05" y="6.471649666e+06" z="0.000000000e+00"/>
+                  <point x="4.839799155e+05" y="6.471651296e+06" z="0.000000000e+00"/>
+                  <point x="4.839812197e+05" y="6.471652758e+06" z="0.000000000e+00"/>
+                  <point x="4.839824597e+05" y="6.471654053e+06" z="0.000000000e+00"/>
+                  <point x="4.839837198e+05" y="6.471655294e+06" z="0.000000000e+00"/>
+                  <point x="4.839862500e+05" y="6.471657564e+06" z="0.000000000e+00"/>
+                  <point x="4.839887227e+05" y="6.471659540e+06" z="0.000000000e+00"/>
+                  <point x="4.839908168e+05" y="6.471661081e+06" z="0.000000000e+00"/>
+                  <point x="4.839917757e+05" y="6.471661725e+06" z="0.000000000e+00"/>
+                  <point x="4.839940168e+05" y="6.471663014e+06" z="0.000000000e+00"/>
+                  <point x="4.839953532e+05" y="6.471663694e+06" z="0.000000000e+00"/>
+                  <point x="4.839983674e+05" y="6.471665105e+06" z="0.000000000e+00"/>
+                  <point x="4.840041052e+05" y="6.471667653e+06" z="0.000000000e+00"/>
+                  <point x="4.840069706e+05" y="6.471668862e+06" z="0.000000000e+00"/>
+                  <point x="4.840293040e+05" y="6.471677996e+06" z="0.000000000e+00"/>
+                  <point x="4.840448925e+05" y="6.471684596e+06" z="0.000000000e+00"/>
+                  <point x="4.840460122e+05" y="6.471685025e+06" z="0.000000000e+00"/>
+                  <point x="4.840483513e+05" y="6.471685809e+06" z="0.000000000e+00"/>
+                  <point x="4.840496504e+05" y="6.471686191e+06" z="0.000000000e+00"/>
+                  <point x="4.840520264e+05" y="6.471686726e+06" z="0.000000000e+00"/>
+                  <point x="4.840531845e+05" y="6.471686895e+06" z="0.000000000e+00"/>
+                  <point x="4.840542807e+05" y="6.471686988e+06" z="0.000000000e+00"/>
+                  <point x="4.840564941e+05" y="6.471687019e+06" z="0.000000000e+00"/>
+                  <point x="4.840577150e+05" y="6.471686959e+06" z="0.000000000e+00"/>
+                  <point x="4.840600967e+05" y="6.471686690e+06" z="0.000000000e+00"/>
+                  <point x="4.840612630e+05" y="6.471686462e+06" z="0.000000000e+00"/>
+                  <point x="4.840623600e+05" y="6.471686179e+06" z="0.000000000e+00"/>
+                  <point x="4.840634099e+05" y="6.471685834e+06" z="0.000000000e+00"/>
+                  <point x="4.840644713e+05" y="6.471685400e+06" z="0.000000000e+00"/>
+                  <point x="4.840655348e+05" y="6.471684882e+06" z="0.000000000e+00"/>
+                  <point x="4.840666012e+05" y="6.471684281e+06" z="0.000000000e+00"/>
+                  <point x="4.840676904e+05" y="6.471683586e+06" z="0.000000000e+00"/>
+                  <point x="4.840687566e+05" y="6.471682787e+06" z="0.000000000e+00"/>
+                  <point x="4.840697814e+05" y="6.471681895e+06" z="0.000000000e+00"/>
+                  <point x="4.840707651e+05" y="6.471680913e+06" z="0.000000000e+00"/>
+                  <point x="4.840717140e+05" y="6.471679836e+06" z="0.000000000e+00"/>
+                  <point x="4.840726416e+05" y="6.471678620e+06" z="0.000000000e+00"/>
+                  <point x="4.840735420e+05" y="6.471677276e+06" z="0.000000000e+00"/>
+                  <point x="4.840744182e+05" y="6.471675804e+06" z="0.000000000e+00"/>
+                  <point x="4.840752732e+05" y="6.471674202e+06" z="0.000000000e+00"/>
+                  <point x="4.840774139e+05" y="6.471669740e+06" z="0.000000000e+00"/>
+                  <point x="4.840777209e+05" y="6.471669048e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0" type="solid" color="yellow"/>
+            </border>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" uid="r1_2" type="driving" direction="forward" turnType="noTurn">
+            <centerLine>
+              <geometry sOffset="0" x="4.839289131e+05" y="6.471627763e+06" z="0.000000000e+00" length="175.1104570221478">
+                <pointSet>
+                  <point x="4.839289131e+05" y="6.471627763e+06" z="0.000000000e+00"/>
+                  <point x="4.839519873e+05" y="6.471627967e+06" z="0.000000000e+00"/>
+                  <point x="4.839584835e+05" y="6.471628081e+06" z="0.000000000e+00"/>
+                  <point x="4.839617544e+05" y="6.471628237e+06" z="0.000000000e+00"/>
+                  <point x="4.839629035e+05" y="6.471628345e+06" z="0.000000000e+00"/>
+                  <point x="4.839637283e+05" y="6.471628474e+06" z="0.000000000e+00"/>
+                  <point x="4.839642289e+05" y="6.471628623e+06" z="0.000000000e+00"/>
+                  <point x="4.839651444e+05" y="6.471628960e+06" z="0.000000000e+00"/>
+                  <point x="4.839659455e+05" y="6.471629349e+06" z="0.000000000e+00"/>
+                  <point x="4.839663636e+05" y="6.471629666e+06" z="0.000000000e+00"/>
+                  <point x="4.839672950e+05" y="6.471630647e+06" z="0.000000000e+00"/>
+                  <point x="4.839678084e+05" y="6.471631311e+06" z="0.000000000e+00"/>
+                  <point x="4.839696180e+05" y="6.471633968e+06" z="0.000000000e+00"/>
+                  <point x="4.839740055e+05" y="6.471640701e+06" z="0.000000000e+00"/>
+                  <point x="4.839770041e+05" y="6.471644925e+06" z="0.000000000e+00"/>
+                  <point x="4.839798677e+05" y="6.471648596e+06" z="0.000000000e+00"/>
+                  <point x="4.839812009e+05" y="6.471650183e+06" z="0.000000000e+00"/>
+                  <point x="4.839824685e+05" y="6.471651604e+06" z="0.000000000e+00"/>
+                  <point x="4.839836704e+05" y="6.471652860e+06" z="0.000000000e+00"/>
+                  <point x="4.839848844e+05" y="6.471654055e+06" z="0.000000000e+00"/>
+                  <point x="4.839873491e+05" y="6.471656266e+06" z="0.000000000e+00"/>
+                  <point x="4.839897576e+05" y="6.471658191e+06" z="0.000000000e+00"/>
+                  <point x="4.839917949e+05" y="6.471659690e+06" z="0.000000000e+00"/>
+                  <point x="4.839926744e+05" y="6.471660281e+06" z="0.000000000e+00"/>
+                  <point x="4.839948265e+05" y="6.471661519e+06" z="0.000000000e+00"/>
+                  <point x="4.839960991e+05" y="6.471662166e+06" z="0.000000000e+00"/>
+                  <point x="4.839990728e+05" y="6.471663558e+06" z="0.000000000e+00"/>
+                  <point x="4.840047807e+05" y="6.471666092e+06" z="0.000000000e+00"/>
+                  <point x="4.840076229e+05" y="6.471667292e+06" z="0.000000000e+00"/>
+                  <point x="4.840299572e+05" y="6.471676427e+06" z="0.000000000e+00"/>
+                  <point x="4.840455281e+05" y="6.471683019e+06" z="0.000000000e+00"/>
+                  <point x="4.840465865e+05" y="6.471683425e+06" z="0.000000000e+00"/>
+                  <point x="4.840488611e+05" y="6.471684187e+06" z="0.000000000e+00"/>
+                  <point x="4.840500774e+05" y="6.471684544e+06" z="0.000000000e+00"/>
+                  <point x="4.840523365e+05" y="6.471685054e+06" z="0.000000000e+00"/>
+                  <point x="4.840533794e+05" y="6.471685206e+06" z="0.000000000e+00"/>
+                  <point x="4.840543645e+05" y="6.471685289e+06" z="0.000000000e+00"/>
+                  <point x="4.840564638e+05" y="6.471685318e+06" z="0.000000000e+00"/>
+                  <point x="4.840575779e+05" y="6.471685263e+06" z="0.000000000e+00"/>
+                  <point x="4.840598381e+05" y="6.471685009e+06" z="0.000000000e+00"/>
+                  <point x="4.840608869e+05" y="6.471684804e+06" z="0.000000000e+00"/>
+                  <point x="4.840618816e+05" y="6.471684547e+06" z="0.000000000e+00"/>
+                  <point x="4.840628220e+05" y="6.471684238e+06" z="0.000000000e+00"/>
+                  <point x="4.840637763e+05" y="6.471683847e+06" z="0.000000000e+00"/>
+                  <point x="4.840647444e+05" y="6.471683376e+06" z="0.000000000e+00"/>
+                  <point x="4.840657264e+05" y="6.471682822e+06" z="0.000000000e+00"/>
+                  <point x="4.840667221e+05" y="6.471682188e+06" z="0.000000000e+00"/>
+                  <point x="4.840676872e+05" y="6.471681464e+06" z="0.000000000e+00"/>
+                  <point x="4.840686217e+05" y="6.471680651e+06" z="0.000000000e+00"/>
+                  <point x="4.840695255e+05" y="6.471679748e+06" z="0.000000000e+00"/>
+                  <point x="4.840703987e+05" y="6.471678757e+06" z="0.000000000e+00"/>
+                  <point x="4.840712583e+05" y="6.471677630e+06" z="0.000000000e+00"/>
+                  <point x="4.840721045e+05" y="6.471676367e+06" z="0.000000000e+00"/>
+                  <point x="4.840729371e+05" y="6.471674968e+06" z="0.000000000e+00"/>
+                  <point x="4.840737563e+05" y="6.471673434e+06" z="0.000000000e+00"/>
+                  <point x="4.840758703e+05" y="6.471669027e+06" z="0.000000000e+00"/>
+                  <point x="4.840761671e+05" y="6.471668358e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </centerLine>
+            <speed max="50"/>
+            <border virtual="FALSE">
+              <borderType sOffset="0" type="solid" color="white"/>
+              <geometry sOffset="0" x="4.839289282e+05" y="6.471626063e+06" z="0.000000000e+00" length="173.1366423819185">
+                <pointSet>
+                  <point x="4.839289282e+05" y="6.471626063e+06" z="0.000000000e+00"/>
+                  <point x="4.839520098e+05" y="6.471626267e+06" z="0.000000000e+00"/>
+                  <point x="4.839585389e+05" y="6.471626382e+06" z="0.000000000e+00"/>
+                  <point x="4.839618747e+05" y="6.471626541e+06" z="0.000000000e+00"/>
+                  <point x="4.839631144e+05" y="6.471626658e+06" z="0.000000000e+00"/>
+                  <point x="4.839641032e+05" y="6.471626812e+06" z="0.000000000e+00"/>
+                  <point x="4.839647653e+05" y="6.471627009e+06" z="0.000000000e+00"/>
+                  <point x="4.839658110e+05" y="6.471627394e+06" z="0.000000000e+00"/>
+                  <point x="4.839668390e+05" y="6.471627893e+06" z="0.000000000e+00"/>
+                  <point x="4.839675010e+05" y="6.471628395e+06" z="0.000000000e+00"/>
+                  <point x="4.839685873e+05" y="6.471629539e+06" z="0.000000000e+00"/>
+                  <point x="4.839691846e+05" y="6.471630312e+06" z="0.000000000e+00"/>
+                  <point x="4.839710328e+05" y="6.471633025e+06" z="0.000000000e+00"/>
+                  <point x="4.839754113e+05" y="6.471639744e+06" z="0.000000000e+00"/>
+                  <point x="4.839783681e+05" y="6.471643910e+06" z="0.000000000e+00"/>
+                  <point x="4.839811891e+05" y="6.471647526e+06" z="0.000000000e+00"/>
+                  <point x="4.839824864e+05" y="6.471649070e+06" z="0.000000000e+00"/>
+                  <point x="4.839837173e+05" y="6.471650450e+06" z="0.000000000e+00"/>
+                  <point x="4.839848811e+05" y="6.471651666e+06" z="0.000000000e+00"/>
+                  <point x="4.839860490e+05" y="6.471652816e+06" z="0.000000000e+00"/>
+                  <point x="4.839884482e+05" y="6.471654968e+06" z="0.000000000e+00"/>
+                  <point x="4.839907925e+05" y="6.471656841e+06" z="0.000000000e+00"/>
+                  <point x="4.839927731e+05" y="6.471658299e+06" z="0.000000000e+00"/>
+                  <point x="4.839935731e+05" y="6.471658837e+06" z="0.000000000e+00"/>
+                  <point x="4.839956362e+05" y="6.471660023e+06" z="0.000000000e+00"/>
+                  <point x="4.839968451e+05" y="6.471660638e+06" z="0.000000000e+00"/>
+                  <point x="4.839997781e+05" y="6.471662011e+06" z="0.000000000e+00"/>
+                  <point x="4.840054562e+05" y="6.471664532e+06" z="0.000000000e+00"/>
+                  <point x="4.840082752e+05" y="6.471665722e+06" z="0.000000000e+00"/>
+                  <point x="4.840306104e+05" y="6.471674857e+06" z="0.000000000e+00"/>
+                  <point x="4.840461636e+05" y="6.471681442e+06" z="0.000000000e+00"/>
+                  <point x="4.840471608e+05" y="6.471681824e+06" z="0.000000000e+00"/>
+                  <point x="4.840493710e+05" y="6.471682565e+06" z="0.000000000e+00"/>
+                  <point x="4.840505043e+05" y="6.471682898e+06" z="0.000000000e+00"/>
+                  <point x="4.840526466e+05" y="6.471683381e+06" z="0.000000000e+00"/>
+                  <point x="4.840535743e+05" y="6.471683516e+06" z="0.000000000e+00"/>
+                  <point x="4.840544483e+05" y="6.471683590e+06" z="0.000000000e+00"/>
+                  <point x="4.840564335e+05" y="6.471683618e+06" z="0.000000000e+00"/>
+                  <point x="4.840574408e+05" y="6.471683568e+06" z="0.000000000e+00"/>
+                  <point x="4.840595795e+05" y="6.471683327e+06" z="0.000000000e+00"/>
+                  <point x="4.840605108e+05" y="6.471683145e+06" z="0.000000000e+00"/>
+                  <point x="4.840614031e+05" y="6.471682915e+06" z="0.000000000e+00"/>
+                  <point x="4.840622342e+05" y="6.471682642e+06" z="0.000000000e+00"/>
+                  <point x="4.840630814e+05" y="6.471682295e+06" z="0.000000000e+00"/>
+                  <point x="4.840639541e+05" y="6.471681870e+06" z="0.000000000e+00"/>
+                  <point x="4.840648515e+05" y="6.471681364e+06" z="0.000000000e+00"/>
+                  <point x="4.840657538e+05" y="6.471680789e+06" z="0.000000000e+00"/>
+                  <point x="4.840666178e+05" y="6.471680141e+06" z="0.000000000e+00"/>
+                  <point x="4.840674619e+05" y="6.471679406e+06" z="0.000000000e+00"/>
+                  <point x="4.840682859e+05" y="6.471678584e+06" z="0.000000000e+00"/>
+                  <point x="4.840690833e+05" y="6.471677678e+06" z="0.000000000e+00"/>
+                  <point x="4.840698750e+05" y="6.471676640e+06" z="0.000000000e+00"/>
+                  <point x="4.840706669e+05" y="6.471675459e+06" z="0.000000000e+00"/>
+                  <point x="4.840714561e+05" y="6.471674133e+06" z="0.000000000e+00"/>
+                  <point x="4.840722393e+05" y="6.471672666e+06" z="0.000000000e+00"/>
+                  <point x="4.840743267e+05" y="6.471668314e+06" z="0.000000000e+00"/>
+                  <point x="4.840746133e+05" y="6.471667668e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </border>
+            <link>
+              <predecessor id="r1_1"/>
+              <successor id="r1_3"/>
+            </link>
+            <sampleAssociates>
+              <sampleAssociate sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="3" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="6" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="9" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="12" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="15" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="18" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="21" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="24" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="27" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="30" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="33" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="36" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="39" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="43" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="46" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="49" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="52" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="55" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="58" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="61" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="64" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="67" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="70" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="73" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="76" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="79" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="86" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="89" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="95" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="98" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="101" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="104" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="107" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="110" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="113" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="116" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="119" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="122" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="125" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="129" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="132" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="135" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="138" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="141" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="144" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="147" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="150" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="153" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="156" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="159" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="162" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="165" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="168" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="172" leftWidth="1.7" rightWidth="1.7"/>
+            </sampleAssociates>
+            <roadSampleAssociations>
+              <sampleAssociation sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="3" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="6" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="9" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="12" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="15" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="18" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="21" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="24" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="27" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="30" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="33" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="36" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="39" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="43" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="46" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="49" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="52" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="55" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="58" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="61" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="64" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="67" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="70" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="73" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="76" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="79" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="86" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="89" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="95" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="98" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="101" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="104" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="107" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="110" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="113" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="116" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="119" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="122" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="125" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="129" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="132" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="135" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="138" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="141" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="144" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="147" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="150" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="153" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="156" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="159" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="162" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="165" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="168" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="172" leftWidth="1.7" rightWidth="1.7"/>
+            </roadSampleAssociations>
+            <objectOverlapGroup>
+              <objectReference id="stopline_5" startOffset="147.57516461690125" endOffset="148.17516461690127" isMerge="false"/>
+            </objectOverlapGroup>
+            <signalOverlapGroup>
+              <signalReference id="trafficlight_1" startOffset="147.57516461690125" endOffset="148.17516461690127" isMerge="false"/>
+            </signalOverlapGroup>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects>
+      <object id="stopline_5" type="stopline">
+        <geometry length="2.9989768319316754" sOffset="0" x="4.840558757e+05" y="6.471686914e+06" z="0.000000000e+00">
+          <pointSet>
+            <point x="4.840558757e+05" y="6.471686914e+06" z="0.000000000e+00"/>
+            <point x="4.840558422e+05" y="6.471685415e+06" z="0.000000000e+00"/>
+            <point x="4.840558087e+05" y="6.471683916e+06" z="0.000000000e+00"/>
+          </pointSet>
+        </geometry>
+      </object>
+    </objects>
+    <signals>
+      <signal id="trafficlight_1" type="trafficLight" layoutType="mix3Vertical">
+        <outline>
+          <cornerGlobal x="4.840596969e+05" y="6.471683368e+06" z="3.000000000e+00"/>
+          <cornerGlobal x="4.840596969e+05" y="6.471683368e+06" z="2.200000000e+00"/>
+          <cornerGlobal x="4.840593981e+05" y="6.471683342e+06" z="3.000000000e+00"/>
+          <cornerGlobal x="4.840593981e+05" y="6.471683342e+06" z="2.200000000e+00"/>
+        </outline>
+        <subSignal id="0" type="circle">
+          <centerPoint x="4.840595475e+05" y="6.471683355e+06" z="2.800000000e+00"/>
+        </subSignal>
+        <subSignal id="1" type="circle">
+          <centerPoint x="4.840595475e+05" y="6.471683355e+06" z="2.600000000e+00"/>
+        </subSignal>
+        <subSignal id="2" type="circle">
+          <centerPoint x="4.840595475e+05" y="6.471683355e+06" z="2.400000000e+00"/>
+        </subSignal>
+        <stopline>
+          <objectReference id="stopline_5"/>
+        </stopline>
+      </signal>
+    </signals>
+  </road>
+  <road name="" id="3" junction="-1">
+    <lanes>
+      <laneSection>
+        <boundaries>
+          <boundary type="leftBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.840777209e+05" y="6.471669048e+06" z="0.000000000e+00"/>
+                <point x="4.840801758e+05" y="6.471663518e+06" z="0.000000000e+00"/>
+                <point x="4.840832596e+05" y="6.471656388e+06" z="0.000000000e+00"/>
+                <point x="4.840843558e+05" y="6.471653719e+06" z="0.000000000e+00"/>
+                <point x="4.840850074e+05" y="6.471651863e+06" z="0.000000000e+00"/>
+                <point x="4.840852604e+05" y="6.471650618e+06" z="0.000000000e+00"/>
+                <point x="4.840853461e+05" y="6.471649364e+06" z="0.000000000e+00"/>
+                <point x="4.840851942e+05" y="6.471647654e+06" z="0.000000000e+00"/>
+                <point x="4.840849230e+05" y="6.471646532e+06" z="0.000000000e+00"/>
+                <point x="4.840845032e+05" y="6.471645469e+06" z="0.000000000e+00"/>
+                <point x="4.840839023e+05" y="6.471644403e+06" z="0.000000000e+00"/>
+                <point x="4.840830165e+05" y="6.471643383e+06" z="0.000000000e+00"/>
+                <point x="4.840819156e+05" y="6.471642503e+06" z="0.000000000e+00"/>
+                <point x="4.840812485e+05" y="6.471642071e+06" z="0.000000000e+00"/>
+                <point x="4.840798903e+05" y="6.471641338e+06" z="0.000000000e+00"/>
+                <point x="4.840737162e+05" y="6.471638677e+06" z="0.000000000e+00"/>
+                <point x="4.839456668e+05" y="6.471584719e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+          <boundary type="rightBoundary">
+            <geometry>
+              <pointSet>
+                <point x="4.840746133e+05" y="6.471667668e+06" z="0.000000000e+00"/>
+                <point x="4.840770616e+05" y="6.471662153e+06" z="0.000000000e+00"/>
+                <point x="4.840801265e+05" y="6.471655067e+06" z="0.000000000e+00"/>
+                <point x="4.840811771e+05" y="6.471652509e+06" z="0.000000000e+00"/>
+                <point x="4.840817220e+05" y="6.471650957e+06" z="0.000000000e+00"/>
+                <point x="4.840818837e+05" y="6.471650161e+06" z="0.000000000e+00"/>
+                <point x="4.840819358e+05" y="6.471649398e+06" z="0.000000000e+00"/>
+                <point x="4.840818299e+05" y="6.471648207e+06" z="0.000000000e+00"/>
+                <point x="4.840816737e+05" y="6.471647561e+06" z="0.000000000e+00"/>
+                <point x="4.840814267e+05" y="6.471646935e+06" z="0.000000000e+00"/>
+                <point x="4.840811097e+05" y="6.471646373e+06" z="0.000000000e+00"/>
+                <point x="4.840806518e+05" y="6.471645846e+06" z="0.000000000e+00"/>
+                <point x="4.840799246e+05" y="6.471645264e+06" z="0.000000000e+00"/>
+                <point x="4.840795139e+05" y="6.471644998e+06" z="0.000000000e+00"/>
+                <point x="4.840784071e+05" y="6.471644401e+06" z="0.000000000e+00"/>
+                <point x="4.840723832e+05" y="6.471641805e+06" z="0.000000000e+00"/>
+                <point x="4.839443465e+05" y="6.471587852e+06" z="0.000000000e+00"/>
+              </pointSet>
+            </geometry>
+          </boundary>
+        </boundaries>
+        <center>
+          <lane id="0" uid="c0_3" type="none">
+            <border virtual="FALSE">
+              <geometry sOffset="0" x="4.840777209e+05" y="6.471669048e+06" z="0.000000000e+00" length="177.21149581944798">
+                <pointSet>
+                  <point x="4.840777209e+05" y="6.471669048e+06" z="0.000000000e+00"/>
+                  <point x="4.840801758e+05" y="6.471663518e+06" z="0.000000000e+00"/>
+                  <point x="4.840832596e+05" y="6.471656388e+06" z="0.000000000e+00"/>
+                  <point x="4.840843558e+05" y="6.471653719e+06" z="0.000000000e+00"/>
+                  <point x="4.840850074e+05" y="6.471651863e+06" z="0.000000000e+00"/>
+                  <point x="4.840852604e+05" y="6.471650618e+06" z="0.000000000e+00"/>
+                  <point x="4.840853461e+05" y="6.471649364e+06" z="0.000000000e+00"/>
+                  <point x="4.840851942e+05" y="6.471647654e+06" z="0.000000000e+00"/>
+                  <point x="4.840849230e+05" y="6.471646532e+06" z="0.000000000e+00"/>
+                  <point x="4.840845032e+05" y="6.471645469e+06" z="0.000000000e+00"/>
+                  <point x="4.840839023e+05" y="6.471644403e+06" z="0.000000000e+00"/>
+                  <point x="4.840830165e+05" y="6.471643383e+06" z="0.000000000e+00"/>
+                  <point x="4.840819156e+05" y="6.471642503e+06" z="0.000000000e+00"/>
+                  <point x="4.840812485e+05" y="6.471642071e+06" z="0.000000000e+00"/>
+                  <point x="4.840798903e+05" y="6.471641338e+06" z="0.000000000e+00"/>
+                  <point x="4.840737162e+05" y="6.471638677e+06" z="0.000000000e+00"/>
+                  <point x="4.839456668e+05" y="6.471584719e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+              <borderType sOffset="0" type="solid" color="yellow"/>
+            </border>
+          </lane>
+        </center>
+        <right>
+          <lane id="-1" uid="r1_3" type="driving" direction="forward" turnType="noTurn">
+            <centerLine>
+              <geometry sOffset="0" x="4.840761671e+05" y="6.471668358e+06" z="0.000000000e+00" length="174.50406970189331">
+                <pointSet>
+                  <point x="4.840761671e+05" y="6.471668358e+06" z="0.000000000e+00"/>
+                  <point x="4.840786187e+05" y="6.471662836e+06" z="0.000000000e+00"/>
+                  <point x="4.840816931e+05" y="6.471655727e+06" z="0.000000000e+00"/>
+                  <point x="4.840827665e+05" y="6.471653114e+06" z="0.000000000e+00"/>
+                  <point x="4.840833647e+05" y="6.471651410e+06" z="0.000000000e+00"/>
+                  <point x="4.840835720e+05" y="6.471650390e+06" z="0.000000000e+00"/>
+                  <point x="4.840836410e+05" y="6.471649381e+06" z="0.000000000e+00"/>
+                  <point x="4.840835120e+05" y="6.471647930e+06" z="0.000000000e+00"/>
+                  <point x="4.840832983e+05" y="6.471647046e+06" z="0.000000000e+00"/>
+                  <point x="4.840829649e+05" y="6.471646202e+06" z="0.000000000e+00"/>
+                  <point x="4.840825060e+05" y="6.471645388e+06" z="0.000000000e+00"/>
+                  <point x="4.840818341e+05" y="6.471644614e+06" z="0.000000000e+00"/>
+                  <point x="4.840809201e+05" y="6.471643883e+06" z="0.000000000e+00"/>
+                  <point x="4.840803812e+05" y="6.471643534e+06" z="0.000000000e+00"/>
+                  <point x="4.840791487e+05" y="6.471642869e+06" z="0.000000000e+00"/>
+                  <point x="4.840730497e+05" y="6.471640241e+06" z="0.000000000e+00"/>
+                  <point x="4.839450066e+05" y="6.471586285e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </centerLine>
+            <speed max="50"/>
+            <border virtual="FALSE">
+              <borderType sOffset="0" type="solid" color="white"/>
+              <geometry sOffset="0" x="4.840746133e+05" y="6.471667668e+06" z="0.000000000e+00" length="171.79664358433868">
+                <pointSet>
+                  <point x="4.840746133e+05" y="6.471667668e+06" z="0.000000000e+00"/>
+                  <point x="4.840770616e+05" y="6.471662153e+06" z="0.000000000e+00"/>
+                  <point x="4.840801265e+05" y="6.471655067e+06" z="0.000000000e+00"/>
+                  <point x="4.840811771e+05" y="6.471652509e+06" z="0.000000000e+00"/>
+                  <point x="4.840817220e+05" y="6.471650957e+06" z="0.000000000e+00"/>
+                  <point x="4.840818837e+05" y="6.471650161e+06" z="0.000000000e+00"/>
+                  <point x="4.840819358e+05" y="6.471649398e+06" z="0.000000000e+00"/>
+                  <point x="4.840818299e+05" y="6.471648207e+06" z="0.000000000e+00"/>
+                  <point x="4.840816737e+05" y="6.471647561e+06" z="0.000000000e+00"/>
+                  <point x="4.840814267e+05" y="6.471646935e+06" z="0.000000000e+00"/>
+                  <point x="4.840811097e+05" y="6.471646373e+06" z="0.000000000e+00"/>
+                  <point x="4.840806518e+05" y="6.471645846e+06" z="0.000000000e+00"/>
+                  <point x="4.840799246e+05" y="6.471645264e+06" z="0.000000000e+00"/>
+                  <point x="4.840795139e+05" y="6.471644998e+06" z="0.000000000e+00"/>
+                  <point x="4.840784071e+05" y="6.471644401e+06" z="0.000000000e+00"/>
+                  <point x="4.840723832e+05" y="6.471641805e+06" z="0.000000000e+00"/>
+                  <point x="4.839443465e+05" y="6.471587852e+06" z="0.000000000e+00"/>
+                </pointSet>
+              </geometry>
+            </border>
+            <link>
+              <predecessor id="r1_2"/>
+              <successor id="r1_1"/>
+            </link>
+            <sampleAssociates>
+              <sampleAssociate sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="10" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="20" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="30" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="41" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="51" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="61" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="71" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="102" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="112" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="123" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="133" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="143" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="153" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociate sOffset="164" leftWidth="1.7" rightWidth="1.7"/>
+            </sampleAssociates>
+            <roadSampleAssociations>
+              <sampleAssociation sOffset="0" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="10" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="20" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="30" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="41" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="51" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="61" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="71" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="82" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="92" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="102" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="112" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="123" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="133" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="143" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="153" leftWidth="1.7" rightWidth="1.7"/>
+              <sampleAssociation sOffset="164" leftWidth="1.7" rightWidth="1.7"/>
+            </roadSampleAssociations>
+            <objectOverlapGroup>
+              <objectReference id="stopline_4" startOffset="174.2040697018933" endOffset="174.80406970189333" isMerge="false"/>
+            </objectOverlapGroup>
+            <signalOverlapGroup>
+              <signalReference id="trafficlight_2" startOffset="174.2040697018933" endOffset="174.80406970189333" isMerge="false"/>
+            </signalOverlapGroup>
+          </lane>
+        </right>
+      </laneSection>
+    </lanes>
+    <objects>
+      <object id="stopline_4" type="stopline">
+        <geometry length="3.0147458273846057" sOffset="0" x="4.839443680e+05" y="6.471587642e+06" z="0.000000000e+00">
+          <pointSet>
+            <point x="4.839443680e+05" y="6.471587642e+06" z="0.000000000e+00"/>
+            <point x="4.839450066e+05" y="6.471586285e+06" z="0.000000000e+00"/>
+            <point x="4.839456533e+05" y="6.471584915e+06" z="0.000000000e+00"/>
+          </pointSet>
+        </geometry>
+      </object>
+    </objects>
+    <signals>
+      <signal id="trafficlight_2" type="trafficLight" layoutType="mix3Vertical">
+        <outline>
+          <cornerGlobal x="4.839415037e+05" y="6.471587056e+06" z="3.000000000e+00"/>
+          <cornerGlobal x="4.839415037e+05" y="6.471587056e+06" z="2.200000000e+00"/>
+          <cornerGlobal x="4.839417335e+05" y="6.471586863e+06" z="3.000000000e+00"/>
+          <cornerGlobal x="4.839417335e+05" y="6.471586863e+06" z="2.200000000e+00"/>
+        </outline>
+        <subSignal id="0" type="circle">
+          <centerPoint x="4.839416186e+05" y="6.471586959e+06" z="2.800000000e+00"/>
+        </subSignal>
+        <subSignal id="1" type="circle">
+          <centerPoint x="4.839416186e+05" y="6.471586959e+06" z="2.600000000e+00"/>
+        </subSignal>
+        <subSignal id="2" type="circle">
+          <centerPoint x="4.839416186e+05" y="6.471586959e+06" z="2.400000000e+00"/>
+        </subSignal>
+        <stopline>
+          <objectReference id="stopline_4"/>
+        </stopline>
+      </signal>
+    </signals>
+  </road>
+</OpenDRIVE>

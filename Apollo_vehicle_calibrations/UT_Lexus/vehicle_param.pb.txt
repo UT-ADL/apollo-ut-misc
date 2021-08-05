@@ -1,0 +1,25 @@
+vehicle_param {
+  brand: LEXUS
+  vehicle_id {
+      other_unique_id: "lexus"
+  }
+  front_edge_to_center: 4.09
+  back_edge_to_center: 0.7
+  left_edge_to_center: 0.947
+  right_edge_to_center: 0.947
+
+  length: 4.79
+  width: 1.72
+  height: 1.894
+  min_turn_radius: 5.91312
+  max_acceleration: 2.0
+  max_deceleration: -6.0
+  max_steer_angle: 8.20304748437
+  max_steer_angle_rate: 6.98131700798
+  steer_ratio: 16
+  wheel_base: 2.78892
+  wheel_rolling_radius: 0.33
+  max_abs_speed_when_stopped: 0.2
+  brake_deadzone: 14.5
+  throttle_deadzone: 15.7
+}
