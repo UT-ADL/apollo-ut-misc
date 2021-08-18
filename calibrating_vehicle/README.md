@@ -1,9 +1,8 @@
-
 # Manuals to calibrate the vehicle
 
 
 ## How to use
-- Copy the `./calibrating_vehicle` directory to the `/apollo/modules/calibration/data/` directory of the Apollo's repository.
+- Copy the `./calibrating_vehicle` directory to the `/apollo/modules/calibration/` directory of the Apollo's repository.
 - Set the driving mode in `/apollo/modules/canbus/conf/canbus_conf.pb.txt` to `AUTO_SPEED_ONLY`.
 - Select a wide area site to drive the vehicle for collecting the data.
 - Start the docker container.
