@@ -33,34 +33,6 @@
 * [Driving Real Lexus Car](./driving_real_lexus/README.md)
 
 
-TODO add ## Using UT Lexus Simulation car
-<!-- * [Sub-items](#sub-items)
-* [Referring to Items](#referring-to-items)
-	- [Get All Items](#get-all-items)
-	- [Get Sub-items of the Item](#get-sub-items-of-the-item)
-	- [Magic Where Methods](#magic-where-methods)
-* [Referring to Menu Objects](#referring-to-menu-instances)
-* [HTML Attributes](#html-attributes)
-* [Manipulating Links](#manipulating-links)
-	- [Link's Href Property](#links-href-property)
-* [Active Item](#active-item)
-	- [URL Wildcards](#url-wildcards)
-    - [Check for Active Children](#check-for-active-children) 
-* [Inserting a Separator](#inserting-a-separator)
-* [Append and Prepend](#append-and-prepend)
-* [Meta Data](#meta-data)
-* [Manipulating The Items](#manipulating-the-items)
-* [Sorting the Items](#sorting-the-items)
-* [Rendering](#rendering)
-    - [Built-in Renderers](#built-in-renderers)
-        - [Render As UL](#render-as-ul)
-        - [Render As OL](#render-as-ol)
-        - [Render As Div](#render-as-div)
-	- [Custom Renderers](#custom-renderers)
-* [Authorization](#authorization)
-* [Configuration](#configuration) -->
-
-
 ## Software Stack
 
 - Baidu Apollo v5.5+ (`git clone` from [here](https://github.com/ApolloAuto/apollo))
@@ -183,6 +155,9 @@ Restart Docker daemon for the changes above to take effect.
 - Select `Random Traffic` as `Runtime Template`.
 - Select `Tartu` map.
 - Select `UT Lexus` vehicle. After selecting the vehicle, select `Apollo_UT_Lexus`, `Apollo_UT_Lexus(Modular)` or `Apollo_UT_Lexus(TrafficLight)`  as sensor configurations.
+  + `Apollo_UT_Lexus`: sensor configurations for conducting a full analysis test. I.e., Apollo has to do the perception, traffic light detection, planning, localization, and control.
+  + `Apollo_UT_Lexus(TrafficLight)`: sensor configurations for conducting a semi-full analysis. I.e., traffic light status messages will be published by SVL simulator, and Apollo must do the localization, perception, prediction, planning, and control.
+  + `Apollo_UT_Lexus(Modular)`: sensor configurations for conducting a modular test. I.e., bounding boxes of the surrounding objects and statuses of the traffic lights will be published by SVL simulator. So, Apollo must do the localization, prediction, planning, and control only.
 - (Optional) Set the Time of Day and weather settings.
 - (Optional) Enable Traffic and Pedestrians.
 - Click on `Next`.
@@ -223,7 +198,9 @@ Restart Docker daemon for the changes above to take effect.
   - Select the `UT Lexus LGSVL` vehicle and `Tartu` map from the top right dropdowns.
   - Select the `Mkz Lgsvl` setup mode from the top menu (on the left side of the vehicle dropdown).
   - Open the `Module Controller` tap (from the left side menu)
-  - Enable `Localization`, `Transform`, `Perception`, `Traffic Light`, `Planning`, `Prediction`, `Routing`, and `Control` modules.
+  - Enable `Localization`, `Transform`, `Perception`, `Traffic Light`, `Prediction`, `Routing`, `Planning`, and `Control` modules.
+    + **NB!** If you have selected `TrafficLight` sensor configurations in the SVL, enable `Localization`, `Transform`, `Perception`, `Prediction`, `Routing`, `Planning`, and `Control` modules only.
+    + **NB!** If you have selected `Modular` sensor configurations in the SVL, enable `Localization`, `Transform`, `Prediction`, `Routing`, `Planning`, and `Control` modules only.
   - Open the `Route Editing` tab.
   - Select a destination by clicking on a lane line and clicking `Submit Route` on the top of the page.
   - Watch the vehicle navigate to the destination
